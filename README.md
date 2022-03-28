@@ -5,12 +5,7 @@
 
 ### 1.-Definicion del problema ###
 
-El problema de ordenamiento secuencial consiste en encontrar un camino hamiltonanio de costo minimo, esto quiere decir que se debe encontrar el camino con los menores costos. El grafo con el que se debe representar debe ser un grafo dirigido con costos asociados a los ejes y relaciones de precedencia entre los nodos. Al hablar de relaciones de presedencia, nos referimos a una o mas reglas en el grafo que indican que nodos se deben visitar primero.Este problema puede verse como una variante del TSP, la diferencia principal recae en que el grafo debe ser asincrono debido a la presedencia. Pero tampoco podemos decir que se trata de un problema ATSP.
-De manera formal el problema se define de la siguiente forma;
-
-Sea G=(V,E) un grafo dirigido completo, donde V= {0,1,2,3...} es el conjunto de nodos y E= {(i,j)| i,j E V,/=j}. Cada eje (i,j) E E tiene un costo asociado Cij >= 0. Ademas, se define el grafo de precedencias P = (V, R) con el mismo conjunto de nodos V .
-
-Un camino que recorre todos los nodos sin repetirlos, comenzando en el 0 y terminando en n, y satisface todas las condiciones de precedencia es una solucion factible del SOP. El objetivo del SOP es encontrar una solucion factible de mınimo costo, donde el costo esta dado por la sumatoria de los costos de los ejes que componen el camino.
+En la teoría de grafos, la coloración de grafos es un caso especial de etiquetado de grafos; es una asignación de etiquetas tradicionalmente llamadas "colores" a los elementos de un grafo sujeta a ciertas restricciones. En su forma más simple, es una forma de colorear los vértices de un grafo de manera que no haya dos vértices adyacentes del mismo color; esto se llama colorear vértices. Del mismo modo, una coloración de aristas asigna un color a cada arista de modo que no haya dos aristas adyacentes del mismo color, y una coloración de caras de un gráfico plano asigna un color a cada cara o región de modo que no haya dos caras que compartan un límite que tengan el mismo color. 
 
 
 ### 2.2 Aplicaciones ###
